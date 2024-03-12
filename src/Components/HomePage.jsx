@@ -152,7 +152,7 @@ const HomePage = () => {
 
   const handleLogout = () => {
     dispatch(logoutAction());
-    navigate("/signup");
+    navigate("/signin");
   };
 
   useEffect(() => {

@@ -42,7 +42,7 @@ const Signup = () => {
 
   useEffect(() => {
     if(auth.reqUser?.full_name) {
-      navigate("/");
+      navigate("/home");
     }
   },[auth.reqUser]);
 
